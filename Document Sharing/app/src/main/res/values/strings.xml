@@ -1,0 +1,10 @@
+<resources>
+    <!--<string name="app_name">Login UI 2</string>-->
+
+
+    <string name="app_name">faculty App</string>
+    <string name="FACEBOOK_APP_ID">2203937976292593</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">0bb8806a4347e16b0860a2ef59fc36de</string>
+    <string name="ak_login_protocol_scheme">ak2203937976292593</string>
+
+</resources>

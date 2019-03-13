@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg">
+
+   <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+
+
+ <android.support.v7.widget.AppCompatTextView
+     android:id="@+id/filepath"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="5dp"
+     android:layout_marginTop="95dp"
+     android:ems="10"
+     android:text="Selected file"
+     android:textSize="20dp" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="210dp"
+        android:ems="10"
+        android:text="Remarks"
+        android:textSize="20dp" />
+
+
+
+    <android.support.v7.widget.AppCompatButton
+     android:id="@+id/browsebutton"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="-32dp"
+     android:layout_marginTop="78dp"
+     android:layout_marginBottom="1dp"
+     android:layout_toRightOf="@+id/filepath"
+     android:text="Browse" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/upload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="225dp"
+        android:fontFamily="serif"
+        android:text="Upload"
+
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/pinview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>
